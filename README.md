@@ -13,17 +13,10 @@ This project involves analyzing sales data and providing insights. The main task
 3. Open the `python_task.ipynb` notebook to perform the analysis.
 
 ### How to Run
-1. Open a terminal or command prompt.
-2. Navigate to the `python_task` directory:
-    ```sh
-    cd python_task
-    ```
-3. Start Jupyter Notebook:
-    ```sh
-    jupyter notebook
-    ```
-4. In the Jupyter Notebook interface, open `python_task.ipynb`.
-5. Run the cells in the notebook to execute the analysis.
+1. Navigate to the `python_task` directory:
+2. Start Jupyter Notebook/Google collab:
+3. In the Jupyter Notebook interface, open `python_task.ipynb`.
+4. Run the cells in the notebook to execute the analysis.
 
 ## Approach
 1. **Data Cleaning**:
