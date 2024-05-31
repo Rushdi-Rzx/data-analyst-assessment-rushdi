@@ -5,13 +5,35 @@ This project involves analyzing sales data and providing insights. The main task
 
 ## Files
 - `sales_data.csv`: The dataset used for analysis.
-- `analysis.py`: The Python script containing the code for data cleaning, EDA, and advanced analysis.
+- `python_task.ipynb`: The Jupyter Notebook containing the code for data cleaning, EDA, and advanced analysis.
 
 ## Instructions
-1. Ensure you have Python installed on your system.
+1. Ensure you have Python and Jupyter Notebook installed on your system.
 2. Navigate to the `python_task` directory.
-3. Run the `analysis.py` script to perform the analysis.
+3. Open the `python_task.ipynb` notebook to perform the analysis.
 
 ### How to Run
-```sh
-python analysis.py
+1. Open a terminal or command prompt.
+2. Navigate to the `python_task` directory:
+    ```sh
+    cd python_task
+    ```
+3. Start Jupyter Notebook:
+    ```sh
+    jupyter notebook
+    ```
+4. In the Jupyter Notebook interface, open `python_task.ipynb`.
+5. Run the cells in the notebook to execute the analysis.
+
+## Approach
+1. **Data Cleaning**:
+    - Loaded the dataset and checked for missing values.
+    - Ensured appropriate data types for each column.
+2. **Exploratory Data Analysis (EDA)**:
+    - Calculated the total sales for each order.
+    - Determined the top 5 products by total sales.
+    - Identified the monthly sales trend.
+    - Plotted a bar chart for the top 5 products by total sales.
+3. **Advanced Analysis**:
+    - Calculated the average order value (AOV).
+    - Determined the repeat purchase rate.
